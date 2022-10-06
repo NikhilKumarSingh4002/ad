@@ -1,0 +1,95 @@
+@media(max-width:900px){body{
+    text-align: center;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+img{
+    border-radius: 5%;
+    filter: invert(5%) sepia(30%) saturate(1418%) hue-rotate(233deg) brightness(93%) contrast(92%);
+}
+.card{
+    width: 18rem;
+    background-color: hsl(244, 38%, 16%);
+    color:white;
+}
+.description{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1rem;
+}
+.card-text{
+    list-style: none;
+}
+.list-title{
+    font-size: 1.5rem;
+}
+.list-title-description{
+    font-size: 0.75rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.emphasis{
+    color:hsl(277, 64%, 61%);
+}
+.list-component{
+    margin: 10px;
+}
+.container{
+    margin-top: 20px;
+}
+}
+@media (min-width:900px){
+    body{
+        text-align: center;
+        background-color: hsl(233, 47%, 7%);
+        font-size: 15px;
+    }
+    .card-text{
+        list-style: none;
+
+    }
+    .card{
+        margin:auto;
+        width: 50rem;
+        background-color: hsl(244, 38%, 16%);
+        color:white;
+        border-radius: 5%;
+    }
+    img{
+        filter: invert(5%) sepia(30%) saturate(1418%) hue-rotate(233deg) brightness(93%) contrast(92%);
+        display: block;
+        margin-left: auto;
+        width: 53%;
+        border-radius: 2.5%;
+    }
+    .description{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 1rem;
+    }
+    .card-body{
+        position: absolute;
+        top: 1px;
+        right: 400px;
+    }
+    .list-title{
+        font-size: 1rem;
+    }
+    .emphasis{
+        color:hsl(277, 64%, 61%);
+    }
+    .container{
+        margin-top: 10rem;
+        width: 75%;
+    }
+    .list-component{
+        position: absolute;
+    }
+    .two{
+        left:45%;
+    }
+    .three{
+        left:75%;
+    }
+    .list-title-description{
+        font-size: 0.75rem;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+}
